@@ -3,5 +3,10 @@
 </template>
 
 <script>
-export default {};
+export default {
+  setup(props, context) {
+    console.log(props);
+    console.log(context);
+  },
+};
 </script>
